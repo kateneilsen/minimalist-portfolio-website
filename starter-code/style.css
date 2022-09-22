@@ -24,6 +24,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  padding: 20px;
 }
 
 /* Make images easier to work with */
@@ -201,6 +202,8 @@ h1{
 }
 
 footer{
+    margin-left: 32px;
+    margin-right: 32px;
     margin-top: 80px;
     background: #33323D;
     color: #FFFFFF;
