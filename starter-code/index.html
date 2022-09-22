@@ -1,38 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Minimalist Portfolio</title>
-</head>
-<body>
-  
-  Home
-  Portfolio
-  Contact Me
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  Hey, I’m Alex Spencer and I love building beautiful websites
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&family=Public+Sans&display=swap"
+      rel="stylesheet"
+    />
 
-  About Me
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="./style.css" />
 
-  About Me
-
-  I’m a junior front-end developer looking for a new role in an exciting company. 
-  I focus on writing accessible HTML, using modern CSS practices and writing clean 
-  JavaScript. When writing JavaScript code, I mostly use React, but I can adapt to 
-  whatever tools are required. I’m based in London, UK, but I’m happy working remotely 
-  and have experience in remote teams. When I’m not coding, you’ll find me outdoors. 
-  I love being out in nature whether that’s going for a walk, run or cycling. I’d love 
-  you to check out my work.
-
-  Go to Portfolio
-
-  Interested in doing a project together?
-
-  Contact Me
-
-</body>
+    <title>Frontend Mentor | Minimalist Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="./images/logo.svg" alt="logo" />
+      </div>
+      <button type="button" class="hamburger">
+        <img src="./images/icons/hamburger.svg" alt="menu icon" />
+      </button>
+    </nav>
+    <main>
+      <header class="hero">
+        <img
+          src="./images/homepage/mobile/image-homepage-hero.jpg"
+          alt="computer"
+          class="hero-img"
+        />
+        <div class="hero-text">
+          <h1>Hey, I’m Alex Spencer and I love building beautiful websites</h1>
+        </div>
+        <div class="hero-btn">
+          <a href="#about">
+            <div class="down-arrows">
+              <img src="./images/icons/down-arrows.svg" alt="down arrows" />
+            </div>
+            <p>About Me</p>
+          </a>
+        </div>
+      </header>
+      <section class="about" id="about">
+        <img
+          src="./images/homepage/mobile/image-homepage-profile.jpg"
+          alt="side profile portrait"
+        />
+        <div class="about-text">
+          <h1>About Me</h1>
+          <p>
+            I’m a junior front-end developer looking for a new role in an
+            exciting company. I focus on writing accessible HTML, using modern
+            CSS practices and writing clean JavaScript. When writing JavaScript
+            code, I mostly use React, but I can adapt to whatever tools are
+            required. I’m based in London, UK, but I’m happy working remotely
+            and have experience in remote teams. When I’m not coding, you’ll
+            find me outdoors. I love being out in nature whether that’s going
+            for a walk, run or cycling. I’d love you to check out my work.
+          </p>
+          <button class="about-btn">Go to Portfolio</button>
+        </div>
+      </section>
+      <section class="portfolio" id="portfolio"></section>
+      <section class="contact" id="contact">
+        Interested in doing a project together? Contact Me
+      </section>
+    </main>
+    <footer>
+      <div class="logo"></div>
+      <ul>
+        <li>Home</li>
+        <li>Portfolio</li>
+        <li>Contact Me</li>
+      </ul>
+      <div class="socials">
+        <ul>
+          <li>
+            <a href="#"
+              ><img src="./images/icons/github.svg" alt="github icon"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./images/icons/twitter.svg" alt="twitter icon"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./images/icons/linkedin.svg" alt="linkedin icon"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
