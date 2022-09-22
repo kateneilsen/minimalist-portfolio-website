@@ -48,15 +48,16 @@ nav{
     justify-content: space-between;
     width: 311px;
 }
-
 .logo img{
     width: 60.08px;
     height: 32px;
+    cursor: pointer;
 }
 
 nav button{
     background: none;
     border: none;
+    cursor: pointer;
 }
 
 .hamburger img{
@@ -64,15 +65,15 @@ nav button{
     height: 13px;
 }
 
-main{
+header{
     margin-left: 32px;
     margin-right: 32px;
 }
 
-/* header{
-    flex-direction: column;
-    justify-content: center;
-} */
+section{
+    margin-left: 32px;
+    margin-right: 32px;
+}
 
 .hero-img{
     margin-top: 40px;
@@ -140,6 +141,7 @@ h1{
 .about-text{
     margin-top: 32px;
     border-top: 1px solid #33323D;
+    border-bottom: 1px solid #33323D;
 }
 
 .about-text h1{
@@ -163,7 +165,7 @@ h1{
     opacity: 0.8;
 }
 
-.about-btn{
+.btn{
     margin-top: 24px;
     margin-bottom: 51px;
     border: 1px solid #33323D;
@@ -182,3 +184,36 @@ h1{
     cursor: pointer;
 }
 
+.contact-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-text h1{
+    text-align: center;
+    margin-top: 115px;
+}
+
+.contact-text button{
+    margin-top: 40px;
+}
+
+footer{
+    margin-top: 80px;
+    background: #33323D;
+    color: #FFFFFF;
+    font-family: 'Public Sans', sans-serif; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+footer img{
+    color: #FFFFFF;
+}
