@@ -24,14 +24,6 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  padding: 20px;
-}
-
-/* Make images easier to work with */
-img,
-picture {
-  max-width: 100%;
-  display: block;
 }
 
 /* Inherit fonts for inputs and buttons */
@@ -67,17 +59,15 @@ nav button{
 }
 
 header{
-    margin-left: 32px;
-    margin-right: 32px;
+    margin: 32px;
 }
 
 section{
-    margin-left: 32px;
-    margin-right: 32px;
+   margin: 32px;
 }
 
 .hero-img{
-    margin-top: 40px;
+    margin-top: 8px;
     width: 311px;
     height: 271px;
 }
@@ -202,6 +192,7 @@ h1{
 }
 
 footer{
+    height: 354px;
     margin-left: 32px;
     margin-right: 32px;
     margin-top: 80px;
@@ -217,6 +208,8 @@ footer{
     text-transform: uppercase;
 }
 
-footer img{
-    color: #FFFFFF;
+.footer-logo{
+    width: 60px;
+    height: 32px;
 }
+    
