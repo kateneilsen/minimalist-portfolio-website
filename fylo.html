@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Fylo Project</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script
+    src="./src/components/navbar.js"
+    type="text/javascript"
+    defer
+  ></script>
+  <script
+    src="./src/components/footer.js"
+    type="text/javascript"
+    defer
+  ></script>
+  <script
+    src="./src/components/contact.js"
+    type="text/javascript"
+    defer
+  ></script>
+</head>
+<body>
+  <body>
+    <navbar-component></navbar-component>
+    <main>
+      <section class="project">
+        <img
+          class="project-img"
+          src="./src/images/detail/mobile/image-fylo-hero.jpg"
+          alt="landing page"
+        />
+        <div class="text">
+          <h2>Fylo</h2>
+          <p class="body2">
+            This project required me to build a fully responsive landing page
+            to the designs provided. I used HTML5, along with CSS Grid and
+            JavaScript for the areas that required interactivity, such as the
+            features section.
+          </p>
+          <p class="subheading">
+            Interaction Design / Front End Development <br />HTML / CSS / JS
+          </p>
+          <button class="secondary">View Website</button>
+        </div>
+        <div class="project-text">
+          <h3>Project Background</h3>
+          <p class="body2">
+            This project was a front-end challenge from Frontend Mentor. It’s
+            a platform that enables you to practice building websites to a
+            design and project brief. Each challenge includes mobile and
+            desktop designs to show how the website should look at different
+            screen sizes. Creating these projects has helped me refine my
+            workflow and solve real-world coding problems. I’ve learned
+            something new with each project, helping me to improve and adapt
+            my style.
+          </p>
+        </div>
+        <div class="static-previews">
+          <h3>Static Previews</h3>
+          <img
+            class="static-img"
+            src="./src/images/detail/mobile/image-fylo-preview-1.jpg"
+            alt="preview of landing page"
+          />
+          <img
+            class="static-img"
+            src="./src/images/detail/mobile/image-fylo-preview-2.jpg"
+            alt="preview of landing page"
+          />
+        </div>
+        <div class="project-btns">
+          <div>
+            <img
+              src="./src/images/icons/arrow-left.svg"
+              alt="arrow pointing left"
+            />
+            <h3>Insure</h3>
+            <p>Previous Project</p>
+          </div>
+          <div>
+            <img
+              src="./src/images/icons/arrow-right.svg"
+              alt="arrow pointing right"
+            />
+            <h3>Manage</h3>
+            <p>Next Project</p>
+          </div>
+        </div>
+      </section>
+      <contact-me></contact-me>
+    </main>
+    <footer-component></footer-component>
+  </body>
+</html>

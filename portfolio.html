@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | My Projects</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="./src/components/navbar.js"
+      type="text/javascript"
+      defer
+    ></script>
+    <script
+      src="./src/components/footer.js"
+      type="text/javascript"
+      defer
+    ></script>
+    <script
+      src="./src/components/contact.js"
+      type="text/javascript"
+      defer
+    ></script>
+  </head>
+  <body>
+    <navbar-component></navbar-component>
+    <main>
+      <!-- Manage -->
+      <section class="portfolio">
+        <img
+          class="portfolio-img"
+          src="./src/images/portfolio/mobile/image-portfolio-manage.jpg"
+          alt="landing page"
+        />
+        <div class="text">
+          <h1>Manage</h1>
+          <p class="body2">
+            This project required me to build a fully responsive landing page to
+            the designs provided. I used HTML5, along with CSS Grid and
+            JavaScript for the areas that required interactivity, such as the
+            testimonial slider.
+          </p>
+          <button class="secondary">View Project</button>
+        </div>
+      </section>
+      <!-- Bookmark -->
+      <section class="portfolio">
+        <img
+          class="portfolio-img"
+          src="./src/images/portfolio/mobile/image-portfolio-bookmark.jpg"
+          alt="landing page"
+        />
+        <div class="text">
+          <h1>Bookmark</h1>
+          <p class="body2">
+            This project required me to build a fully responsive landing page to
+            the designs provided. I used HTML5, along with CSS Grid and
+            JavaScript for the areas that required interactivity, such as the
+            features section.
+          </p>
+          <button class="secondary">View Project</button>
+        </div>
+      </section>
+      <!-- Insure -->
+      <section class="portfolio">
+        <img
+          class="portfolio-img"
+          src="./src/images/portfolio/mobile/image-portfolio-insure.jpg"
+          alt="landing page"
+        />
+        <div class="text">
+          <h1>Insure</h1>
+          <p class="body2">
+            This was a small project which mostly consisted of HTML and CSS. I
+            built a fully-responsive landing page. The only JavaScript this
+            project required was to enable the toggling of the mobile
+            navigation.
+          </p>
+          <button class="secondary">View Project</button>
+        </div>
+      </section>
+      <!-- Fylo -->
+      <section class="portfolio">
+        <img
+          class="portfolio-img"
+          src="./src/images/portfolio/mobile/image-portfolio-fylo.jpg"
+          alt="landing page"
+        />
+        <div class="text">
+          <h1>Fylo</h1>
+          <p class="body2">
+            This project was built in pure HTML and CSS. I had mobile and
+            desktop designs to work to and built it so that it was
+            fully-responsive. I took a mobile-first approach and used modern CSS
+            like Flexbox and Grid for layout purposes.
+          </p>
+          <button class="secondary">View Project</button>
+        </div>
+      </section>
+      <contact-me></contact-me>
+    </main>
+    <footer-component></footer-component>
+  </body>
+</html>

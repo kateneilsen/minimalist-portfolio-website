@@ -8,7 +8,7 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="./src/images/favicon-32x32.png"
     />
 
     <!-- Google Fonts -->
@@ -23,41 +23,48 @@
     <link rel="stylesheet" href="./style.css" />
 
     <title>Frontend Mentor | Minimalist Portfolio</title>
+    <!-- reusable html/web components -->
+    <script
+      src="./src/components/navbar.js"
+      type="text/javascript"
+      defer
+    ></script>
+    <script
+      src="./src/components/footer.js"
+      type="text/javascript"
+      defer
+    ></script>
+    <script
+      src="./src/components/contact.js"
+      type="text/javascript"
+      defer
+    ></script>
   </head>
   <body>
-    <nav>
-      <div class="logo">
-        <img src="./images/logo.svg" alt="logo" />
-      </div>
-      <button type="button" class="hamburger">
-        <img src="./images/icons/hamburger.svg" alt="menu icon" />
-      </button>
-    </nav>
+    <navbar-component></navbar-component>
     <main>
       <header class="hero">
         <img
-          src="./images/homepage/mobile/image-homepage-hero.jpg"
+          src="./src/images/homepage/mobile/image-homepage-hero.jpg"
           alt="computer"
           class="hero-img"
         />
         <div class="hero-text">
           <h1>Hey, I’m Alex Spencer and I love building beautiful websites</h1>
         </div>
-        <div class="hero-btn">
-          <a href="#about">
-            <div class="down-arrows">
-              <img src="./images/icons/down-arrows.svg" alt="down arrows" />
-            </div>
-            <p>About Me</p>
-          </a>
-        </div>
+        <button class="primary">
+          <div class="down-arrows">
+            <img src="./src/images/icons/down-arrows.svg" alt="down arrows" />
+          </div>
+          <p>About Me</p>
+        </button>
       </header>
       <section class="about" id="about">
         <img
-          src="./images/homepage/mobile/image-homepage-profile.jpg"
+          src="./src/images/homepage/mobile/image-homepage-profile.jpg"
           alt="side profile portrait"
         />
-        <div class="about-text">
+        <div class="text">
           <h1>About Me</h1>
           <p>
             I’m a junior front-end developer looking for a new role in an
@@ -69,45 +76,12 @@
             find me outdoors. I love being out in nature whether that’s going
             for a walk, run or cycling. I’d love you to check out my work.
           </p>
-          <button class="btn">Go to Portfolio</button>
+          <button class="secondary">Go to Portfolio</button>
         </div>
       </section>
       <section class="portfolio" id="portfolio"></section>
-      <section class="contact" id="contact">
-        <div class="contact-text">
-          <h1>Interested in doing a project together?</h1>
-          <button class="btn">Contact Me</button>
-        </div>
-      </section>
+      <contact-me></contact-me>
     </main>
-    <footer>
-      <div class="footer-logo">
-        <img src="./images/logo.svg" alt="logo" />
-      </div>
-      <ul>
-        <li>Home</li>
-        <li>Portfolio</li>
-        <li>Contact Me</li>
-      </ul>
-      <div class="socials">
-        <ul>
-          <li>
-            <a href="#"
-              ><img src="./images/icons/github.svg" alt="github icon"
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img src="./images/icons/twitter.svg" alt="twitter icon"
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img src="./images/icons/linkedin.svg" alt="linkedin icon"
-            /></a>
-          </li>
-        </ul>
-      </div>
-    </footer>
+    <footer-component></footer-component>
   </body>
 </html>
