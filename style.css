@@ -9,7 +9,7 @@ font-family: 'Public Sans', sans-serif;
     padding: 0;
     text-decoration: 0;
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 
@@ -26,27 +26,27 @@ body {
   line-height: 1.5;
 }
 
+
 a, button{
     text-decoration: none;
     font-family: 'Public Sans', sans-serif; 
     font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 0.75rem;
+    line-height: 0.875rem;
     text-align: center;
-    letter-spacing: 2px;
+    letter-spacing: 0.125rem;
     text-transform: uppercase;
 }
 
 nav{
-    margin: 32px;
+    margin: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 311px;
 }
 .logo img{
-    width: 60.08px;
-    height: 32px;
+    width: 3.75rem;
+    height: 2rem;
     cursor: pointer;
 }
 
@@ -57,47 +57,55 @@ nav button{
 }
 
 .hamburger img{
-    width: 24px;
-    height: 13px;
+    width: 1.5rem;
+    height: 0.8125rem;
 }
 
 header{
-    margin: 32px;
+    margin: 2rem;
 }
 
 section{
-   margin: 32px;
+   margin: 2rem;
 }
 
 .hero-img{
-    margin-top: 8px;
-    width: 311px;
-    height: 271px;
+    margin-top: 0.5rem;
+}
+
+.hero-img img{
+    width: 100%;
 }
 
 .hero-text{
-    width: 311px;
-    height: 168px;
-    margin-top: 24px;
+    max-width: 32rem;
+    height: 10.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-text h1{
+    min-width: 19rem;
+    max-width: 28rem;
 }
 
 h1{
     font-family: 'Ibarra Real Nova', serif;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 42px;
-    letter-spacing: -0.36px;
+    font-size: 2.5rem;
+    line-height: 2.625rem;
+    letter-spacing: -0.4px;
     color: #33323D;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 }
 
 h2{
     font-family: 'Ibarra Real Nova', serif;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 42px;
+    font-size: 2.5rem;
+    line-height: 2.625rem;
     letter-spacing: -0.36px;  
-    margin-top: 24px;
+    margin-top: 1.5rem;
 }
 
 h3{
@@ -112,15 +120,15 @@ p{
     font-family: 'Public Sans', sans-serif; 
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 1rem;
+    line-height: 1.875rem;
     color: #33323D;
     opacity: 0.8;
-    margin-top: 24px;
+    margin-top: 1.5rem;
 }
 
 p .body2{
-    font-size: 15px;
+    font-size: 0.9375rem;
 }
 
 button.primary{
@@ -148,16 +156,16 @@ button.primary{
     font-family: 'Public Sans', sans-serif; 
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 0.75rem;
     letter-spacing: 2px;
     text-transform: uppercase;
     margin: 0;
-    line-height: 14px;
+    line-height: 0.875rem;
 }
 
 .down-arrows{
     flex-direction: column;
-    padding: 18px;
+    padding: 1.125rem;
     background-color: rgba(0,0,0,0.1);
     justify-self: center;
 }
@@ -173,8 +181,8 @@ button.primary:hover{
 }
 
 button.secondary{
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
     border: 1px solid #33323D;
     width: 202px;
     height: 48px;
@@ -182,8 +190,8 @@ button.secondary{
     font-family: 'Public Sans', sans-serif; 
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 0.75rem;
+    line-height: 0.875rem;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #33323D;
@@ -195,18 +203,28 @@ button.secondary:hover{
     color: #FAFAFA;
 }
 
-.about img{
+.about{
     margin-top: 96px;
-    width: 311px;
-    height: 346px;
+}
+
+.about-img{
+    /* margin-top: 100px; */
+    height: 21.625rem;
+    background-image: url("./src/images/homepage/mobile/image-homepage-profile.jpg");
+    background-repeat: no-repeat;
 }
 
 .text{
-    margin-top: 40px;
-    margin-bottom: 24px;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
     border-top: 1.4px solid #EAEAEB;
     border-bottom: 1.4px solid #EAEAEB;
 }
+
+.text h1{
+    margin-top: 2.5rem;
+}
+
 
 
 .contact-text{
@@ -218,7 +236,7 @@ button.secondary:hover{
 
 .contact-text h1{
     text-align: center;
-    margin-top: 115px;
+    margin-top: 5.625rem;
 }
 
 .contact-text button{
@@ -261,7 +279,7 @@ footer li{
 }
 
 .footer-logo{
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 
 footer .socials{
@@ -272,9 +290,9 @@ footer .socials{
 }
 
 .socials li{
-    width: 25px;
-    height: 24px;
-    margin-right: 15px;
+    width: 1.5625rem;
+    height: 1.5rem;
+    margin-right: 0.9375rem;
 }
 
 .socials img{
@@ -289,56 +307,56 @@ footer img{
 /* Portfolio Page */
 
 .portfolio-img{
-    margin-top: 8px;
-    width: 311px;
-    height: 288px;
+    margin-top: 0.5rem;
+    width: 19.4375rem;
+    height: 18rem;
 }
 
 .portfolio button{
-    width: 175px;
+    width: 10.9375rem;
 }
 
 /* Project Pages*/
 .project-img{
-    margin-top: 8px;
-    width: 311px;
-    height: 140px;
+    margin-top: 0.5rem;
+    width: 19.4375rem;
+    height: 8.75rem;
 }
 
 .subheading{
     color: #5FB4A2;
-    font-size: 13px;
-    line-height: 30px;
+    font-size: 0.8125rem;
+    line-height: 1.875rem;
     font-weight: 700;
-    margin-top: 24px;
+    margin-top: 1.5rem;
 }
 
 .project button{
-    width: 175px;
+    width: 10.9375rem;
 }
 
 .project-text{
-    margin-top: 48px;
+    margin-top: 3rem;
     border: none;
 }
 
 .static-previews{
-    margin-top: 48px;
-    margin-bottom: 64px;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
 }
 
 .static-img{
-    margin-top: 40px;
-    margin-bottom: 32px;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
 }
 
 .project-btns{
-    padding: 20px;
+    padding: 1.25rem;
     display: flex;
     flex-direction: row;
     border-top: 1.4px solid #EAEAEB;
     border-bottom: 1.4px solid #EAEAEB;
-    height: 148px;
+    height: 9.25rem;
 }
 
 .left{
@@ -359,4 +377,32 @@ footer img{
     margin-top: 0;
 }
 
+@media screen and (min-width: 768px){
+    
+    /* navbar */
 
+    /* header section*/
+ 
+
+    /* About section */
+
+    .about{
+        display: flex;
+    }
+
+    .about-img{
+        flex: 1;
+        height: 600px;
+        background-image: url("./src/images/homepage/tablet/image-homepage-profile.jpg");
+        background-repeat: no-repeat;
+        margin-top: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .about .text{
+        flex: 1;
+        height: 600px;
+    }
+
+
+}
